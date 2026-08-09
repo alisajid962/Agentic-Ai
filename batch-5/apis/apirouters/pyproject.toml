@@ -1,0 +1,17 @@
+[project]
+name = "apirouters"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.141.1",
+    "middleware>=1.2.3",
+    "pydantic>=2.13.4",
+    "uvicorn[standard]>=0.52.1",
+]
+
+[tool.uv.workspace]
+members = [
+    "api2",
+]

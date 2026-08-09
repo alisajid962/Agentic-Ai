@@ -1,0 +1,10 @@
+# name = input("Enter the name: ")
+# age=input("Enter your age")
+# cgpa=float(input("Enter your cgpa: "))
+# print(name,age,cgpa)
+# print("Name:      ,"Age":      "Cgpa"")
+# print(f"Name: {name} | Age: {age} |   Cgpa: {cgpa} ")
+# print(name)
+# print(age)
+# print(cgpa)
+
